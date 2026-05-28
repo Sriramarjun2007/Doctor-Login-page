@@ -1,0 +1,95 @@
+
+.sidebar{
+    background:linear-gradient(#0d3549,rgb(42, 53, 99));
+    width: 250px;
+    height: 725px;
+    margin: 0;
+    position: fixed;
+}
+.headingbar{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 5px;
+    color: aliceblue;
+    border-bottom: 1px dotted rgb(235, 226, 226);
+}
+.headingbar img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.accesbar{
+    display: fixed;
+}
+.accesbar ol{
+    list-style: none;
+    padding: 0;
+}
+.accesbar li{
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.accesbar li:hover{
+      border: 1px solid rgb(126, 126, 185);
+      background:#55718d;
+      border-radius: 20px;
+}
+.contentdash{
+    display: flex;
+}
+.dash{
+    margin-left: 270px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    
+}
+.searchbar{
+    margin-left: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    height: 20px;
+    width: 170px;
+    border: 1px solid rgb(204, 204, 250);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(232, 248, 255);
+    font-size: 14px;
+
+}
+.searchbar:hover{
+    border: 1px solid rgb(133, 193, 218);
+}
+.recordcontainer{
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 200px;
+    width: 1270px;
+    background-color: rgb(230, 245, 251);
+}
+.record{
+    display: flex;
+    gap: 80px;
+    margin-left: 150px;
+}
+.record div{
+      background:#f4f4f4;
+      padding:20px;
+      width:230px;
+      height: 50px;
+      margin-top: 50px;
+      border: 1px solid rgb(133, 193, 218);
+      border-radius: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #55718d;
+}
+.patientimage{
+    border-radius: 60%;
+    height: 40px;
+    width: 50px;
+    margin-left: 135px;
+}

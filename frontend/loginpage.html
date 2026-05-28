@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="leftcontainer">
+        <div class="logoandheading">
+            <img class="logo" src="images/logo.png">
+            <h2>PatientHub</h2> 
+        </div>
+        <div class="information">
+            <h1 class="inform1">Smarter patient care <br>starts here.</h1>
+            <p class="para1">A unified clinical dashboard for managing <br>patients, prescriptions, and appointments <br>with confidence.</p>
+        </div>
+        <div class="boxcontainer">
+            <div>
+                2000<br>
+                Active paitent
+            </div>
+            <div>
+                76<br>
+                Appointments today
+            </div>
+            <div>
+                678<br>
+                Prescriptions
+            </div>
+        </div>
+    </section>
+    <section class="loginarea">
+        <div class="paralogin">
+        <p><b style="font-size: 25px;">Welcome back ,Doctor</b><br>Sign in to your clinical dashboard</p>
+        </div><br>
+        <form>
+            <div class="email">
+                Email address<br>
+                <input type="email" id="emailtype" required>
+            </div>
+            <div class="password">
+                Password<br>
+                <input type="password" id="passtype" required>
+                <p id="error-message"></p>
+            </div>
+            <div class="forgotpass">
+                <p>Forget password?</p>                
+            </div>
+            <div class="restandsumbit">
+                <button type="submit" id="signtodash" >
+                Sigin in to Dashboard
+                </button>
+            </div>
+        </form>
+    </section>
+    <script src="login.js"></script>
+</body>
+</html>
